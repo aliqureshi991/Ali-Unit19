@@ -1,0 +1,164 @@
+
+.menugroup {
+    margin: auto;
+    vertical-align: top;
+    color: white;
+    height: 72px;
+    display: contents;
+    outline: 1px solid red;
+}
+
+.menuitem {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    padding-left: 15px;
+}
+
+.logo {
+    padding: 1%;
+    text-align: center;
+}
+
+.navigation {
+    width: 0 auto;
+    padding: 1%;
+    background-color: black;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+.downloadbutton {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration-color: black;
+    margin-left: 40%;
+}
+
+button {
+    padding: 8px;
+}
+
+.linkedin {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 20px;
+}
+
+.parentflex {
+    grid-area: left;
+}
+
+.parentflex {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.parentflex2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.childflex {
+}
+
+.childflex2 {
+    width: 6%;
+    margin-bottom: 50px;
+}
+
+.downloadpdfbutton {
+    margin-left: 272px;
+    height: 50px;
+    width: 250px;
+    padding-left: 25px;
+}
+
+.alfredicon {
+    height: 50px;
+}
+
+.downloadicon {
+    height: 20px;
+    width: 20px;
+    padding-left: 30px;
+}
+
+.leftcontent {
+    display: inline-block;
+    width: 25%;
+    height: 600px;
+    vertical-align: top;
+    outline: 1px solid red;
+}
+
+.rightcontent {
+    display: inline-block;
+    width: 70%;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    outline: 1px solid red;
+}
+
+.alfredmobile {
+    height: 437px;
+    width: 226px;
+    padding: 5px;
+  }
+  
+.column2 {
+    flex: 60%;
+    padding: 5px;
+  }
+
+.row {
+    display: flex;
+}
+
+.casestudyintro {
+    display: flex;
+    flex-direction: row;
+}
+
+.imageplaceholder {
+    padding: 5px;
+}
+
+
+
+.gridcontainer {
+    display: grid left right;
+    grid-template-areas: 'left right right';
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.leftcontent {
+    grid-area: left;
+}
+
+.rightcontent {
+    grid-area: right;
+}
+
+footer {
+    background-color: #373738;
+    color: white;
+    padding-left: 20px;
+}
+
+.footertext {
+    color: white;
+}
+
+.column2 {
+    padding-left: 25px;
+}
