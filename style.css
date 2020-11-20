@@ -67,6 +67,16 @@ button {
 }
 
 .childflex {
+    opacity: 0.3;
+}
+
+.childflex:hover {
+    opacity: 1;
+    border: 1px solid black;
+}
+
+.selected {
+    opacity: 1;
 }
 
 .childflex2 {
@@ -106,6 +116,10 @@ button {
     background-color: black;
     color: white;
     outline: 1px solid red;
+}
+
+.hide {
+    display: none;
 }
 
 .alfredmobile {
